@@ -1,0 +1,15 @@
+r=5;
+h=3;
+D=2*r;
+C=2*pi*r;
+A=pi*r^2;
+Vc=pi*r^2*h;
+disp(['Calculation of circle']);
+disp(['______________________']);
+disp(['Radius (cm) = ' , num2str(r)]);
+disp(['Height (cm) = ' , num2str(h)]);
+disp(['']);
+disp(['diameter (cm) = ' , num2str(D)]);
+disp (['circumference (cm) = ' , num2str(C)]);
+disp (['Area(cm) =' , num2str(A)]);
+disp(['Volume of cylinder = ' , num2str(Vc)]);
